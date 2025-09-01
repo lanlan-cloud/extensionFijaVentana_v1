@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extensión Lock Screen - Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Extensión Lock Screen</h1>
+
+        <!-- Botón Free -->
+        <section class="section-free">
+            <h2>Versión Free</h2>
+            <button id="lockBtn" class="btn-free">🔒 </button>
+        </section>
+      
+    <script>
+        // Función Free
+        document.getElementById("lockBtn").addEventListener("click", () => {
+            alert("Pantalla bloqueada en primer plano (versión Free).");
+        });
+
+    </script>
+</body>
+</html>
